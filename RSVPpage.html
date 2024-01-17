@@ -1,10 +1,13 @@
 <head>
     <link rel="stylesheet" href="rsvpcss.css">
-   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
 </head>
+</br>
 <div class="formbold-main-wrapper">
+  <div id="includeheader"></div>
     <!-- Author: FormBold Team -->
     <!-- Learn More: https://formbold.com -->
+    <button><a data-aos="zoom-in-left" data-aos-delay="300" href="index.html">home</a>Back</button>
     <div class="formbold-form-wrapper">
       <form action="https://formbold.com/s/FORM_ID" method="POST">
         <div class="flex flex-wrap formbold--mx-3">
@@ -99,5 +102,13 @@
       </form>
     </div>
   </div>
+
+  <script src="rsvp.js"></script>
+  <script>
+    $(function(){
+      // Load the header HTML file into the div with id="includedContent"
+      $("#includeheader").load("header.html");
+    });
+  </script>
 
   
