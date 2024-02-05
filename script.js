@@ -1,3 +1,4 @@
+alert("This website is for development purposes!!, For portfolio Only, to increase my knowlede on coding!");
 let navbar = document.querySelector('.header .navbar');
 let menuBtn = document.querySelector('#menu');
 

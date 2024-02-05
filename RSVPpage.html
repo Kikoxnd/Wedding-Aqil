@@ -1,10 +1,13 @@
 <head>
-    <link rel="stylesheet" href="rsvpcss.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+  
+  <link rel="stylesheet" href="rsvpcss.css">
 </head>
 </br>
-<div class="formbold-main-wrapper">
-  <div id="includeheader"></div>
+
+
+<body>
+  <div class="formbold-main-wrapper">
+    
     <!-- Author: FormBold Team -->
     <!-- Learn More: https://formbold.com -->
     <button><a data-aos="zoom-in-left" data-aos-delay="300" href="index.html">home</a>Back</button>
@@ -15,29 +18,29 @@
             <div class="formbold-mb-5">
               <label for="fName" class="formbold-form-label"> First Name </label>
               <input
-                type="text"
+              type="text"
                 name="fName"
                 id="fName"
                 placeholder="First Name"
                 class="formbold-form-input"
-              />
+                />
+              </div>
             </div>
-          </div>
-          <div class="w-full sm:w-half formbold-px-3">
-            <div class="formbold-mb-5">
-              <label for="lName" class="formbold-form-label"> Last Name </label>
-              <input
+            <div class="w-full sm:w-half formbold-px-3">
+              <div class="formbold-mb-5">
+                <label for="lName" class="formbold-form-label"> Last Name </label>
+                <input
                 type="text"
                 name="lName"
                 id="lName"
                 placeholder="Last Name"
                 class="formbold-form-input"
-              />
+                />
+              </div>
             </div>
           </div>
-        </div>
-  
-        <div class="formbold-mb-5">
+          
+          <div class="formbold-mb-5">
           <label for="guest" class="formbold-form-label">
             How many guest are you bringing?
           </label>
@@ -55,9 +58,9 @@
             <div class="formbold-mb-5 w-full">
               <label for="date" class="formbold-form-label"> Date </label>
               <input
-                type="date"
-                name="date"
-                id="date"
+              type="date"
+              name="date"
+              id="date"
                 class="formbold-form-input"
               />
             </div>
@@ -66,10 +69,10 @@
             <div class="formbold-mb-5">
               <label for="time" class="formbold-form-label"> Time </label>
               <input
-                type="time"
-                name="time"
-                id="time"
-                class="formbold-form-input"
+              type="time"
+              name="time"
+              id="time"
+              class="formbold-form-input"
               />
             </div>
           </div>
@@ -78,10 +81,10 @@
         <div class="flex formbold-mb-5">
           <div class="flex">
             <input
-              type="radio"
-              name="radio1"
-              id="radioButton1"
-              class="formbold-radio"
+            type="radio"
+            name="radio1"
+            id="radioButton1"
+            class="formbold-radio"
             />
             <label for="radioButton1" class="formbold-radio-label"> Yes </label>
           </div>
@@ -91,24 +94,24 @@
               name="radio1"
               id="radioButton2"
               class="formbold-radio"
-            />
-            <label for="radioButton2" class="formbold-radio-label"> No </label>
+              />
+              <label for="radioButton2" class="formbold-radio-label"> No </label>
+            </div>
           </div>
-        </div>
   
-        <div>
-          <button class="formbold-btn">Submit</button>
-        </div>
+          <div>
+            <button class="formbold-btn">Submit</button>
+          </div>
       </form>
     </div>
   </div>
-
+</body>
+  
   <script src="rsvp.js"></script>
   <script>
     $(function(){
       // Load the header HTML file into the div with id="includedContent"
       $("#includeheader").load("header.html");
     });
-  </script>
+    </script>
 
-  
